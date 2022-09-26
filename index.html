@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Notepad App</title>
+</head>
+<body>
+    <h1>Notepad App</h1>
+    <div id="container">
+        <div class="mb-3">
+            <!-- <label for="myText" class="form-label">Notepad App</label> -->
+            <textarea class="form-control" id="addTxt" rows="8"></textarea>
+        </div>
+    </div>
+    <button type="button" id="addBtn" class="btn btn-primary">Add Note</button>                
+    <button type="button" id="uppercase" class="btn btn-primary">Uppercase</button>
+    <button type="button" id="lowercase" class="btn btn-primary">Lowercase</button>
+    <button type="button" id="cleartext" class="btn btn-primary">Clear Text</button>
+    <button type="button" id="selecttext" class="btn btn-primary">Select Text</button>
+    <button type="button" id="boldtext" class="btn btn-primary">Bold Text</button>
+    <button type="button" id="italictext" class="btn btn-primary my-2">Italic Text</button>
+    <button type="button" id="underlinetext" class="btn btn-primary my-2">Underline Text</button>
+    <button type="button" id="copytext" class="btn btn-primary">Copy Text</button>
+
+    </div>
+        <hr>
+        <h1>Your Notes</h1>
+        <hr>
+    <div id="notes" class="row container-fluid"> </div>
+
+
+    
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
